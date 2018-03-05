@@ -1,0 +1,25 @@
+{
+  "name": "pmxexample",
+  "version": "1.0.0",
+  "description": "A small example project to show the use the pmx metrics module.",
+  "main": "bootstrap.js",
+  "scripts": {
+    "start" : "pm2 start bootstrap.js",
+    "poststart" : "pm2 web",
+    "test" : "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "pm2",
+    "pmx",
+    "metrics",
+    "exmaple"
+  ],
+  "author": "Phil Scott",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pm2": "^2.1.5",
+    "pmx": "^0.6.8"
+  }
+}
